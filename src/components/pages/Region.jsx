@@ -162,7 +162,7 @@ export default function Region(){
         </MediaQuery>
         <Stack marginLeft={'5%'} fontSize={isMobile?40:80} marginTop={'50px'} fontFamily={'DniproCity'} fontWeight={'bold'} marginBottom={'50px'} sx={linkStyle} onClick={()=>{history.push(`/allplaces/${id}`)}}>Усі місця</Stack>
         <Stack marginLeft={'5%'} marginTop={'50px'} flexDirection={'row'} flexWrap={'wrap'} style={{width:'100%'}} justifyContent={isMobile?'center':'flex-start'}>
-            {placesData.slice(0,num).map((place, i)=>{
+            {placesData?.slice(0,num).map((place, i)=>{
                 return <Card place={place} key={i}/>
             })}
         </Stack>
@@ -177,13 +177,13 @@ export default function Region(){
             </ScrollContainer>
         </Stack>
         <Stack marginLeft={'5%'} marginTop={'50px'} flexDirection={'row'} flexWrap={'wrap'} style={{width:'100%'}} justifyContent={isMobile?'center':'flex-start'}>
-            {placesData.slice(num, num*2).map((place, i)=>{
+            {placesData?.slice(num, num*2).map((place, i)=>{
                 return <Card place={place} key={i}/>
             })}
         </Stack>
         <News/>
         <Stack marginLeft={'5%'} marginTop={'50px'} flexDirection={'row'} flexWrap={'wrap'} style={{width:'100%'}} justifyContent={isMobile?'center':'flex-start'}>
-            {placesData.slice(num*2).map((place, i)=>{
+            {placesData?.slice(num*2).map((place, i)=>{
                 return <Card place={place} key={i}/>
             })}
         </Stack>

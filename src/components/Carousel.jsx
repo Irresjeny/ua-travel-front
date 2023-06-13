@@ -25,7 +25,7 @@ export default function Carousel({data}) {
 
     return <Stack width={'100%'} overflow={'hidden'}>
         <Stack flexDirection={'row'} sx={{transform:`translateX(-${index * 100}%)`, transition:'transform 0.3s'}}>
-            {data.map((item, i) => (
+            {data?.map((item, i) => (
                 <CarouselItem key={i} id={item.id} text={getRegionName(item.region)} title={item.name.toUpperCase()} backgroundUrl={item.image.split(/\r?\n/)[0]} famous={item.famous}
                               nextItem={nextIndex} prevItem={prevIndex}  />
             ))}
