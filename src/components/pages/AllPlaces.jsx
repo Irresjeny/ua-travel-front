@@ -187,7 +187,7 @@ export default function AllPlaces() {
         </Stack>
         <Stack marginLeft={'5%'} marginTop={'5%'} flexDirection={'row'} flexWrap={'wrap'} style={{width: '100%'}}
                justifyContent={isMobile ? 'center' : 'flex-start'}>
-            {placesData.slice(0, num)?.map((place, i) => {
+            {placesData?.slice(0, num)?.map((place, i) => {
                 return <Card place={place} key={i}/>
             })}
         </Stack>
@@ -204,7 +204,7 @@ export default function AllPlaces() {
         </Stack>
         <Stack marginLeft={'5%'} marginTop={'50px'} flexDirection={'row'} flexWrap={'wrap'} style={{width: '100%'}}
                justifyContent={isMobile ? 'center' : 'flex-start'}>
-            {placesData.slice(num)?.map((place, i) => {
+            {placesData?.slice(num)?.map((place, i) => {
                 return <Card place={place} key={i}/>
             })}
         </Stack>
