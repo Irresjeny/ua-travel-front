@@ -1,0 +1,38 @@
+export const allCategory = [
+    {
+        id:1,
+        name:'Палатки',
+        image:'https://probike.com.ua/image/catalog/katalog/6c387f68c3584a949d86a2685bdf1dde.png',
+        sex:false,
+    },
+    {
+        id:2,
+        name:'Рюкзаки',
+        image:'https://neve.com.ua/162-large_default/turisticheskiy-rukzak-sherpa-100.jpg',
+        sex:false,
+    },
+    {
+        id:3,
+        name:'Спальні мішки',
+        image:'https://images.shafastatic.net/405757651',
+        sex:true,
+    },
+    {
+        id:4,
+        name:'Взуття',
+        image:'https://fair.ua/image/cache/catalog/photo_prod/11762637/0_buty-turystyczne-damskie-vibram-mt500-ultra-sk-ra-wodoodporne-1200x1200.jpg',
+        sex:true,
+    },
+    {
+        id:5,
+        name:'Рюкзаки',
+        image:'https://neve.com.ua/162-large_default/turisticheskiy-rukzak-sherpa-100.jpg',
+        sex:false,
+    },
+    {
+        id:6,
+        name:'Рюкзаки',
+        image:'https://neve.com.ua/162-large_default/turisticheskiy-rukzak-sherpa-100.jpg',
+        sex:false,
+    },
+]

@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "name": "Updated Place Name",
+  "image": "https://example.com/updated-image.jpg",
+  "address": "Updated Place Address",
+  "cityName": "Updated City",
+  "priceAdult": 25.99,
+  "priceChild": 12.99,
+  "workSchedule": "Updated Work Schedule",
+  "contacts": "Updated Contact Information",
+  "description": "Updated Place Description",
+  "rate": 4.5,
+  "type": 2,
+  "isMainCarousel": true,
+  "isRegionCarousel": false,
+  "region": 5,
+  "famous": true
+}

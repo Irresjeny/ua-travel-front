@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'DniproCity';
+  src: local('Lato'), url(./fonts/DniproCity-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DniproCity';
+  font-weight: 900;
+  src: local('Lato'), url(./fonts/DniproCity-Bold.ttf) format('truetype');
+}
